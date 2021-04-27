@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="WELCOME HOME"
+        android:textSize="16pt"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@color/cardview_shadow_start_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Dini Putri/124190062"
+        android:textSize="12pt"
+        android:textAlignment="center"
+        android:gravity="bottom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tugas Navbar dan Fragment"
+        android:textSize="14pt"
+        android:textAlignment="center"
+        android:gravity="top"/>
+
+</FrameLayout>
